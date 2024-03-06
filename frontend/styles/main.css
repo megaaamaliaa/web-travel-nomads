@@ -1,5 +1,4 @@
 body {
-  background-color: #e4e6eb;
   font-family: "Assistant", sans-serif;
   color: #071c4d;
 }
@@ -115,4 +114,66 @@ header .btn-get-started:hover {
 .section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
   background-color: #fdc193;
   color: #fff;
+}
+
+.section-networks {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+.section-networks h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-networks p {
+  font-size: 18px;
+}
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #dee4f7 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+.section-testimonial-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 400px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content h3 {
+  font-size: 22px;
+}
+.section-testimonial-content .card-testimonial .testimonial-content .testimonial {
+  font-weight: 200;
+  font-size: 20px;
+  color: #6e6e6e;
+}
+.section-testimonial-content .card-testimonial .testimonial-content .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+.section-testimonial-content .card-testimonial .testimonial-content hr {
+  margin-left: -20px;
+  margin-right: 20px;
 }/*# sourceMappingURL=main.css.map */

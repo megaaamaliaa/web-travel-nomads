@@ -1,5 +1,4 @@
 body {
-  background-color: #e4e6eb;
   font-family: "Assistant", sans-serif;
   color: #071c4d;
 }
@@ -139,6 +138,82 @@ header {
             color: #fff;
           }
         }
+      }
+    }
+  }
+}
+
+// section Networks
+.section-networks {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 200px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+// testimonial heading
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #dee4f7 100%);
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+// Testimonial Content
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+
+    .testimonial-content {
+      min-height: 400px;
+
+      h3 {
+        font-size: 22px;
+      }
+
+      .testimonial {
+        font-weight: 200;
+        font-size: 20px;
+        color: #6e6e6e;
+      }
+
+      .trip-to {
+        font-weight: normal;
+        font-size: 22px;
+        color: #6e6e6e;
+      }
+
+      hr {
+        margin-left: -20px;
+        margin-right: 20px;
       }
     }
   }
