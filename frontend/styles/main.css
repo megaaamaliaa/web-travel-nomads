@@ -135,7 +135,7 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-heading {
-  background: linear-gradient(#fff 0%, #dee4f7 100%);
+  background: linear-gradient(#fff 0%, #f0f0f0 100%);
   padding-top: 50px;
   min-height: 506px;
 }
@@ -165,7 +165,7 @@ header .btn-get-started:hover {
 }
 .section-testimonial-content .card-testimonial .testimonial-content .testimonial {
   font-weight: 200;
-  font-size: 20px;
+  font-size: 26px;
   color: #6e6e6e;
 }
 .section-testimonial-content .card-testimonial .testimonial-content .trip-to {
@@ -176,4 +176,24 @@ header .btn-get-started:hover {
 .section-testimonial-content .card-testimonial .testimonial-content hr {
   margin-left: -20px;
   margin-right: 20px;
+}
+.section-testimonial-content .btn-get-started {
+  background-color: #ff9e53;
+  color: white;
+}
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #fdc193;
+  color: white;
+}
+.section-testimonial-content .btn-need-help {
+  background-color: #cecece;
+  color: #ffffff;
+}
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #f2f2f2;
+  color: #c3c3c3;
+}
+
+.section-footer a {
+  color: #071c4d;
 }/*# sourceMappingURL=main.css.map */
