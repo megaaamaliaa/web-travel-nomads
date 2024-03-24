@@ -119,7 +119,7 @@ header .btn-get-started:hover {
 .section-networks {
   background-color: #fff;
   margin-top: -170px;
-  padding-top: 200px;
+  padding-top: 250px;
   padding-bottom: 50px;
 }
 .section-networks h2 {
@@ -135,17 +135,19 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-heading {
-  background: linear-gradient(#fff 0%, #f0f0f0 100%);
-  padding-top: 50px;
-  min-height: 506px;
+  background: #051334;
+  padding-top: 60px;
+  min-height: 550px;
 }
 .section-testimonial-heading h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
+  color: #fff;
 }
 .section-testimonial-heading p {
   font-size: 18px;
+  color: white;
 }
 
 .section-testimonial-content {
@@ -156,6 +158,7 @@ header .btn-get-started:hover {
   padding: 40px 20px 10px;
   border-radius: 11px;
   margin-bottom: 20px;
+  background-color: #f7f6f6;
 }
 .section-testimonial-content .card-testimonial .testimonial-content {
   min-height: 400px;
@@ -196,4 +199,89 @@ header .btn-get-started:hover {
 
 .section-footer a {
   color: #071c4d;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  padding: 0;
+  margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-details-content .card-details .features {
+  margin-top: 20px;
+}
+.section-details-content .card-details .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+.section-details-content .card-details .features p {
+  margin-bottom: 0;
+}
+.section-details-content .card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .card-details .features .description .featured-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .card-details .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .card-details .gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.section-details-content .card-details .gallery .xzoom-container .xactive {
+  border: 4px solid #1abc9c;
+  box-shadow: none;
+}
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.join-container {
+  margin-top: -20px;
+}
+
+.btn-join-now {
+  background-color: #ff9e53;
+  color: #fff;
+  border-radius: 0;
+}
+.btn-join-now:hover {
+  background-color: #fdc193;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
