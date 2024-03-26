@@ -233,6 +233,42 @@ header .btn-get-started:hover {
   font-size: 18px;
   color: #b1b1b1;
 }
+.section-details-content .card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+.section-details-content .card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-details-content .card-details .trip-informations .text-blue {
+  color: #071c4d;
+  font-weight: bold;
+}
+.section-details-content .card-details .trip-informations .text-orange {
+  color: #ff9e53;
+  font-weight: bold;
+}
+.section-details-content .card-details h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #071c4d;
+}
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+.section-details-content .card-details .btn-add-now {
+  background-color: #071c4d;
+  color: white;
+}
+.section-details-content .card-details .btn-add-now:hover {
+  background-color: #284ea7;
+  color: white;
+}
 .section-details-content .card-details .features {
   margin-top: 20px;
 }
@@ -271,17 +307,15 @@ header .btn-get-started:hover {
   border-bottom-right-radius: 0;
   border-bottom: 0;
 }
-
-.join-container {
+.section-details-content .join-container {
   margin-top: -20px;
 }
-
-.btn-join-now {
+.section-details-content .btn-join-now {
   background-color: #ff9e53;
   color: #fff;
   border-radius: 0;
 }
-.btn-join-now:hover {
+.section-details-content .btn-join-now:hover {
   background-color: #fdc193;
   color: white;
 }/*# sourceMappingURL=main.css.map */
