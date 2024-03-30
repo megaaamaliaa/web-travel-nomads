@@ -309,6 +309,41 @@ header {
         font-weight: bold;
       }
     }
+    .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .bank {
+      .bank-item {
+        h3 {
+          font-size: 18px;
+          color: #071c4d;
+          margin-bottom: 0;
+        }
+        p {
+          margin-bottom: 0;
+        }
+        .descriptions {
+          margin-left: 10;
+          overflow: hidden;
+          float: left;
+
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            color: #071c4d;
+          }
+        }
+      }
+      .bank-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+
     // note
     h3 {
       font-weight: 600;
@@ -395,6 +430,32 @@ header {
     &:hover {
       background-color: #fdc193;
       color: #ffff;
+    }
+  }
+}
+
+// sukses
+.section-sukses {
+  height: 90vh;
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #071c4d;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #071c4d;
+    color: #fff;
+
+    &:hover {
+      background-color: #284ea7;
+      color: #fff;
     }
   }
 }
